@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulários</title>
+</head>
+<body>
+    <fieldset>
+
+        <legend>
+            Cadastro
+        </legend>
+
+        <form id=" revisão.html">
+
+        <label>Matrícula: </label>
+        <input type="number" name="matricula" placeholder="Seu CPF" required> <br><br>
+
+        <label>Nome: </label>
+        <input type="text" name="nome" placeholder="Digite seu nome" required> <br>
+
+        <label>Email: </label>
+        <input type="email" name="email" placeholder="nome@exemplo.com"><br>
+
+        <label>Senha: </label>
+        <input type="password" name="senha" placeholder="********"required> <br>
+
+        <label>Selecione o curso: </label>
+        <select name = 'curso'>
+            <option value = "nada"> ...</option>
+            <option value = "python">Python</option>
+            <option value = "js">Java Script</option>
+            <option value = "html">HTML(5)</option>
+            <option value = "data">Data Science</option>
+        </select> <br> <br>
+
+        <label>Selecione o seu gênero: </label><br>
+            <input type="radio" id= "sexo" value = 'masc'> Masculino
+            <input type="radio" id= "sexo" value = 'fem'>Feminino
+            <input type="radio" id= "sexo" value = 'neutro'>Neutro
+            <input type="radio" id= "sexo" value = 'nao'>Não quero especificar<br><br>
+
+        <label>Disponibilidade: </label><br>
+            <input type="checkbox" id= "manha" value = 'manha'> Manhã
+            <input type="checkbox" id= "tarde" value = 'tarde'> Tarde
+            <input type="checkbox" id= "noite" value = 'noite'> Noite<br> <br>
+
+        <label>Data de Nascimento: </label>
+            <input type = "date" name ="data_nascimento"></imput><br><br>
+
+        
+		<input type="submit" value="Enviar">
+        </form>
+
+    </fieldset>
+
+</body>
+</html>
