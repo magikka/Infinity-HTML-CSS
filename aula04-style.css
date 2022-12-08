@@ -1,0 +1,48 @@
+style.css
+{
+    padding: 0;
+    margin: 0;
+}
+
+/*ID*/
+#texto-pink{
+    color:pink;
+}
+
+/*CLASSE*/
+.texto-rosinha{
+    color: salmon
+}
+
+.fonte-grande{
+    font-size:30px;
+    font-family: Tahoma;
+}
+
+
+.clica{
+    color: salmon;
+    background-color:pink;
+    width: max-content;
+    cursor: pointer;
+}
+
+/*HOVER (SOBREPOSIÇÃO)*/
+.texto-rosinha:hover{
+    font-family: Tahoma;
+}
+
+/*DIV*/
+div{
+    width: 130px;
+    height: 50px;
+    color: white
+    background-color: black;
+    padding-top: 10px;
+    padding-left:5px;
+    border-width: 10px;
+    border-style: dotted;
+    margin: 20px;
+}
+
+
