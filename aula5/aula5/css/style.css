@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Unbounded:wght@300&display=swap');
+
+/* '*' é tudo do site*/
+*{
+	margin: 0 auto;
+	padding: 0;
+	box-sizing: border-box;
+    font-family:'Unbounded', sans-serif;
+}
+
+#menu-principal
+{
+    max-width: 1500px;
+	list-style: none;
+	padding: 0;
+	background-color: #e97c74;
+}
+
+#menu-principal ul{
+    max-width: 1000px;
+}
+
+#menu-principal li
+{
+	display: inline;
+    
+}
+
+#menu-principal li a
+{
+    color: whitesmoke;
+    padding: 20px;
+    display: inline-block;
+    text-decoration: none;
+    transition: background .2s;
+    
+}
+
+#menu-principal li a:hover
+{
+    background-color: #ffa8a2;
+}
+
+#menu-principal li:last-child a
+{
+    float:right;
+    color: #ffa8a2;
+    background-color:rgb(255, 255, 255);
+}
